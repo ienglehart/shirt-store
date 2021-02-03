@@ -6,9 +6,8 @@ export const ButtonContainer = styled.button`
     test-transform: capitalize;
     fost-size: 1.4rem;
     background: transparent;
-    border: 5px solid var(--lightBlue);
+    border: transparent;
     color: var(--lightBlue);
-    border-radius: 5px;
     padding: 5px 5px;
     cursor:pointer;
     margin: 5px 5px;
