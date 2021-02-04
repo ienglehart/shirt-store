@@ -8,7 +8,7 @@ import Details from './components/pages/Details';
 import Cart from './components/pages/cart/Cart';
 import Footer from './components/features/Footer';
 import Default from './components/pages/Default';
-
+import Login from './components/pages/Login';
 
 class App extends Component {
   render() {
@@ -20,6 +20,7 @@ class App extends Component {
           <Route exact path="/" component={ProductList} />
           <Route path="/details" component={Details} /> 
           <Route path="/cart" component={Cart} />
+          <Route path="/login" component={Login} />
           <Route component={Default} />
         </Switch>
 
